@@ -1,0 +1,33 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(24, 24, 24);
+    align-items: center;
+
+    div{
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+
+        nav{
+            width:50%;
+            display:flex;
+            justify-content: space-between;
+            align-items: center;
+
+            a{
+                color: white;
+                font-weight: 700;
+                font-size: 20px;
+                text-decoration: none;
+                padding: 10px;
+            }
+            .activeLink{
+                color: rgb(226, 155, 2);
+            }
+        }
+    }
+}
+
+
+
